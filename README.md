@@ -16,7 +16,7 @@ int main(){
     std::vector<float> input_vector(size, 1.0f);
 
     LinearRegression linearRegression(size); //Initialize the Class.
-    linearRegression.sycl(" "); //call the .sycl() method to run the forward and Backward on SPIR supported Devices.
+    linearRegression.sycl("AMD"); //call the .sycl() method to run the forward and Backward on SPIR supported Devices.
     float output = linearRegression.forward(input_vector);
 
     // One can choose Devices by Vendor Names, AMD, Intel, Arm or
