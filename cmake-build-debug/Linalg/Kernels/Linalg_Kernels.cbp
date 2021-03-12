@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Linalg_Kernels"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Kernels\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\computecpp-sdk\;CMake Files\..\..\computecpp-sdk\cmake\;CMake Files\..\..\computecpp-sdk\cmake\Modules\;CMake Files\Linalg\;CMake Files\Linalg\Kernels\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/atharva/CLionProjects/SYCL_ML_Lib/cmake-build-debug/Linalg/Kernels"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/atharva/CLionProjects/SYCL_ML_Lib/cmake-build-debug/Linalg/Kernels/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/atharva/CLionProjects/SYCL_ML_Lib/cmake-build-debug/Linalg/Kernels/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/atharva/CLionProjects/SYCL_ML_Lib/cmake-build-debug/Linalg/Kernels/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/atharva/CLionProjects/SYCL_ML_Lib/cmake-build-debug/Linalg/Kernels/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Linalg_Kernels">
+				<Option output="/home/atharva/CLionProjects/SYCL_ML_Lib/cmake-build-debug/Linalg/Kernels/libLinalg_Kernels.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atharva/CLionProjects/SYCL_ML_Lib/cmake-build-debug/Linalg/Kernels"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/atharva/CLionProjects/SYCL_ML_Lib/$(COMPUTECPP_INCLUDE_DIRECTORY)"/>
+					<Add directory="/home/atharva/CLionProjects/SYCL_ML_Lib/Linalg/Kernels/$(COMPUTECPP_INCLUDE_DIRECTORY)"/>
+					<Add directory="/home/atharva/ComputeCPP/computeCPP/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/atharva/CLionProjects/SYCL_ML_Lib/cmake-build-debug/Linalg/Kernels/Makefile&quot;  VERBOSE=1 Linalg_Kernels"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/atharva/CLionProjects/SYCL_ML_Lib/cmake-build-debug/Linalg/Kernels/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/atharva/CLionProjects/SYCL_ML_Lib/cmake-build-debug/Linalg/Kernels/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/atharva/CLionProjects/SYCL_ML_Lib/cmake-build-debug/Linalg/Kernels/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Linalg_Kernels/fast">
+				<Option output="/home/atharva/CLionProjects/SYCL_ML_Lib/cmake-build-debug/Linalg/Kernels/libLinalg_Kernels.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atharva/CLionProjects/SYCL_ML_Lib/cmake-build-debug/Linalg/Kernels"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/atharva/CLionProjects/SYCL_ML_Lib/$(COMPUTECPP_INCLUDE_DIRECTORY)"/>
+					<Add directory="/home/atharva/CLionProjects/SYCL_ML_Lib/Linalg/Kernels/$(COMPUTECPP_INCLUDE_DIRECTORY)"/>
+					<Add directory="/home/atharva/ComputeCPP/computeCPP/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/atharva/CLionProjects/SYCL_ML_Lib/cmake-build-debug/Linalg/Kernels/Makefile&quot;  VERBOSE=1 Linalg_Kernels/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/atharva/CLionProjects/SYCL_ML_Lib/cmake-build-debug/Linalg/Kernels/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/atharva/CLionProjects/SYCL_ML_Lib/cmake-build-debug/Linalg/Kernels/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/atharva/CLionProjects/SYCL_ML_Lib/cmake-build-debug/Linalg/Kernels/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/atharva/CLionProjects/SYCL_ML_Lib/Linalg/Kernels/BLAS1.cpp">
+			<Option target="Linalg_Kernels"/>
+		</Unit>
+		<Unit filename="/home/atharva/CLionProjects/SYCL_ML_Lib/Linalg/Kernels/BLAS1.h">
+			<Option target="Linalg_Kernels"/>
+		</Unit>
+		<Unit filename="/home/atharva/CLionProjects/SYCL_ML_Lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/atharva/CLionProjects/SYCL_ML_Lib/Kernels/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Kernels\"/>
+		</Unit>
+		<Unit filename="/home/atharva/CLionProjects/SYCL_ML_Lib/../../computecpp-sdk/cmake/Modules/ComputeCppCompilerChecks.cmake">
+			<Option virtualFolder="CMake Files\..\..\computecpp-sdk\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/atharva/CLionProjects/SYCL_ML_Lib/../../computecpp-sdk/cmake/Modules/ComputeCppIRMap.cmake">
+			<Option virtualFolder="CMake Files\..\..\computecpp-sdk\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/atharva/CLionProjects/SYCL_ML_Lib/../../computecpp-sdk/cmake/Modules/FindComputeCpp.cmake">
+			<Option virtualFolder="CMake Files\..\..\computecpp-sdk\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/atharva/CLionProjects/SYCL_ML_Lib/Linalg/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Linalg\"/>
+		</Unit>
+		<Unit filename="/home/atharva/CLionProjects/SYCL_ML_Lib/Linalg/Kernels/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Linalg\Kernels\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

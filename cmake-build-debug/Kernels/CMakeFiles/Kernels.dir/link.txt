@@ -1,0 +1,2 @@
+/usr/bin/ar qc libKernels.a  CMakeFiles/Kernels.dir/RegressionKernel.cpp.o
+/usr/bin/ranlib libKernels.a

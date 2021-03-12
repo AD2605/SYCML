@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SYCL_ML_Lib.dir/main.cpp.o  -o SYCL_ML_Lib  -Wl,-rpath,/home/atharva/ComputeCPP/computeCPP/lib /home/atharva/ComputeCPP/computeCPP/lib/libComputeCpp.so /home/atharva/ComputeCPP/computeCPP/lib/libComputeCpp.so /usr/lib/x86_64-linux-gnu/libOpenCL.so 

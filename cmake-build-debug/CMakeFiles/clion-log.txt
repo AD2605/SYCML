@@ -1,0 +1,12 @@
+/home/atharva/Downloads/CLion-2020.3/clion-2020.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/atharva/CLionProjects/SYCL_ML_Lib
+-- platform - your system can support ComputeCpp
+-- compute++ flags - -O2;-mllvm;-inline-threshold=1000;-intelspirmetadata;-sycl-target;spir64;-DSYCL_LANGUAGE_VERSION=2017
+-- platform - your system can support ComputeCpp
+-- compute++ flags - -O2;-mllvm;-inline-threshold=1000;-intelspirmetadata;-sycl-target;spir64;-DSYCL_LANGUAGE_VERSION=2017;-O2;-mllvm;-inline-threshold=1000;-intelspirmetadata;-sycl-target;spir64;-DSYCL_LANGUAGE_VERSION=2017
+-- platform - your system can support ComputeCpp
+-- compute++ flags - -O2;-mllvm;-inline-threshold=1000;-intelspirmetadata;-sycl-target;spir64;-DSYCL_LANGUAGE_VERSION=2017;-O2;-mllvm;-inline-threshold=1000;-intelspirmetadata;-sycl-target;spir64;-DSYCL_LANGUAGE_VERSION=2017
+-- platform - your system can support ComputeCpp
+-- compute++ flags - -O2;-mllvm;-inline-threshold=1000;-intelspirmetadata;-sycl-target;spir64;-DSYCL_LANGUAGE_VERSION=2017;-O2;-mllvm;-inline-threshold=1000;-intelspirmetadata;-sycl-target;spir64;-DSYCL_LANGUAGE_VERSION=2017
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/atharva/CLionProjects/SYCL_ML_Lib

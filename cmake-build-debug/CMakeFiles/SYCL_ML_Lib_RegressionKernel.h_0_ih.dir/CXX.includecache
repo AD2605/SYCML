@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/atharva/CLionProjects/SYCL_ML_Lib/Kernels/RegressionKernel.h
+CL/sycl.hpp
+-
+string
+-
+iostream
+-
+Device.h
+/home/atharva/CLionProjects/SYCL_ML_Lib/Kernels/Device.h
+
