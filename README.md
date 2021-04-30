@@ -6,6 +6,7 @@ Currently features the following -
 * Linear and Logistic Regression. 
 * PCA, SVD
 * K means Clustering
+* Comptetitive Learning and SOM
 
 ## Usage 
 The usage is very simple. To target an accelerator device, simply call `.sycl()` on your model and pass the target as a string in the `forward` method. 
