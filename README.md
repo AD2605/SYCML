@@ -28,7 +28,7 @@ int main(){
     float learning_rate = 1e-3;
     linearRegression.setDevice(std::string("Intel"));
 
-    linearRegression.backward(loss, learning_rate);ww
+    linearRegression.backward(loss, learning_rate);
 }
 ```
 If one does not chose the `.sycl()` option, the algorithms will be accelerated using `OpenMP`. Later Down the line in further Releases, I wish to shift to SIMD intrinsics. 
