@@ -28,10 +28,10 @@ int main(){
     float learning_rate = 1e-3;
     linearRegression.setDevice(std::string("Intel"));
 
-    linearRegression.backward(loss, learning_rate);
+    linearRegression.backward(loss, learning_rate);ww
 }
 ```
-If one does not chose the `.sycl()` option, the algorithms will be accelerated using `OpenMP`. Later Down the line in further Releases, I plan to use more vendor specific libraries like 'mkl' for Intel and 'ACML' for AMD. 
+If one does not chose the `.sycl()` option, the algorithms will be accelerated using `OpenMP`. Later Down the line in further Releases, I wish to shift to SIMD intrinsics. 
 
 ### What is SYCL 
 SYCL (pronounced ‘sickle’) is a royalty-free, cross-platform abstraction layer that enables code for heterogeneous processors to be written using standard ISO C++ with the host and kernel code for an application contained in the same source file. This Enables us to target more accelerator devices like GPU's from AMD and even FPGA's and ASICS instead of relying only on Nvidia's devices and this is the main motivation behind this library. 
